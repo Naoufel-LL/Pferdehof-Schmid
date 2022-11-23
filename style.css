@@ -433,10 +433,12 @@ footer .col span{
     transform: translateY(100%);
   }
 }
+html, body {
+  overflow-x: hidden;
+}
 body {
-    overflow-x: hidden !important;
-    position: relative;
- }
+  position: relative
+}
 @media (max-width: 840px) {
     
     .service .row {
@@ -488,6 +490,9 @@ body {
     margin-left: -15px;
 }
 @media (max-width: 601px) {
+  .logo img{
+    width: 10px !important;
+  }
     .row img{
         width: 80%;
     }
