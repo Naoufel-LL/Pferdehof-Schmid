@@ -462,6 +462,7 @@ body {
   }}
   #top .row{
     justify-content: center;
+    padding: 15px;
   }
   #top{
     z-index: 10000;
